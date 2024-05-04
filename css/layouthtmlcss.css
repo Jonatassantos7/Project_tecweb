@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: #ebebeb
+}
+
+#box{
+	width: 850px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+#topo{
+	height: 150px;
+	background: #bc9c7c;
+}
+
+#topo .logo{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin: 30px 10px;
+	background: #4463ac;
+}
+
+#menu{
+	width: 850px;
+	height: 35px;
+	float: left;
+	background: #4463ac;
+	color: #ffffff;
+	margin-left: 0px;
+}
+
+#conteudo{
+	height: 400px;
+	background: #c4d5ce;
+	padding: 5px;
+}
+
+#rodape{
+	height: 100px;
+	background: #373334;
+	padding: 15px;
+	font: bold 16px Arial, Helvetica sans-serif;
+	color: #ffffff;
+}

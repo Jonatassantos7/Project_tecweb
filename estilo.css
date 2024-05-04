@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background: rgb(140, 186, 187); /* Cool blue-green color */
+  color: black;
+  font-family: 'Monteserrat', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-weight: lighter;
+  color: #247ba0; /* Cool blue color */
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: Montserrat Light;
+  color: #000000; /* Cool black */
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+a {
+  color: black;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b2dbbf; /* Light green color */
+}
+
+.card {
+  text-align: center;
+  box-shadow: 3px 6px 8px 3px rgba(10, 10, 10, 0.3);
+  padding: 20px;
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+#banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgb(200 200 200);
+}
+
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#footer {
+  padding: 20px;
+  border-radius: 10px;
+  background: #2a363b; /* Cool dark blue color */
+  color: lightgrey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+#footer a:hover {
+  color: #3e2723; /* Dark brown color */
+}
+
+#footer .yt a:hover {
+  color: #d32f2f; /* Dark red color */
+}
+
+#footer #ft a:hover {
+  color: #2962ff; /* Bright blue color */
+}
+
+#footer li a:hover {
+  color: white;
+}
+
+#contato {
+  padding-top: 60px;
+  background: #cbd9ea;
+}
+
+iframe {
+  width: 100%;
+  height: 460px;
+}
+
+textarea.form-control {
+  height: 90px;
+  resize: none;
+}
+
+form,
+.alert {
+  margin-bottom: 0;
+}
